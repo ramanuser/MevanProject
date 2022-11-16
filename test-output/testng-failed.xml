@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="org.test.Facebookedge">
+        <methods>
+          <include name="dateTime1"/>
+          <include name="dateTime2"/>
+          <include name="snap"/>
+          <include name="browserEdge"/>
+          <include name="tc3" invocation-numbers="1 2 3 4"/>
+        </methods>
+      </class> <!-- org.test.Facebookedge -->
+      <class name="org.test.Facebook">
+        <methods>
+          <include name="tc1" invocation-numbers="2 3 4"/>
+          <include name="dateTime3"/>
+          <include name="dateTime5"/>
+          <include name="snap"/>
+          <include name="browserFf"/>
+        </methods>
+      </class> <!-- org.test.Facebook -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

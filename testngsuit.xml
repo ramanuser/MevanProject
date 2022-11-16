@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="Firstname" value="RamKumar"></parameter>
+  <parameter name="Lastname" value="S"></parameter>
+  <parameter name="Mobile" value="9887766554"></parameter>
+  <parameter name="Password" value="A1b2c3d4@"></parameter>
+  <parameter name="Email" value="ramkumar99@gmail.com"></parameter>
+  <parameter name="Massage" value="I am interest to join automation testing course."></parameter>
+  <parameter name="Age" value="21"></parameter>
+  <parameter name="Year" value="1997"></parameter>
+    <classes>
+      <class name="org.test.Facebook"/>
+      <class name="org.test.TestNgTesting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
